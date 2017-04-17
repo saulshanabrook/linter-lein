@@ -1,7 +1,7 @@
 # linter-lein
 
 This package will lint your Clojure files in Atom using by attempting to 
-load the file and printing compile time errors. This is what the `lein check`
+compile the file. This is what the `lein check`
 command does as well.
 
 ## Installation
@@ -9,8 +9,8 @@ command does as well.
 ### Leiningen
 
 Before using this package you will need to install the
-[`lein-check-stdin`][https://github.com/saulshanabrook/lein-check-stdin] plugin
-(and obviously [Leiningen][])
+[`lein-check-stdin`](https://github.com/saulshanabrook/lein-check-stdin) plugin
+[Leiningen](https://leiningen.org/)
 
 
 ### Plugin installation
@@ -37,4 +37,3 @@ are available:
     `lein`.
 
 [linter]: https://github.com/atom-community/linter "Linter"
-[Leiningen]: https://github.com/technomancy/leiningen "Leiningen"
